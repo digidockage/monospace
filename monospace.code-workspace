@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "."
+    },
+    {
+      "name": "ESM BAUDRATE",
+      "path": "./packages/libs/esm-baudrate"
+    },
+    {
+      "name": "ESM USB CANBUS ADAPTER",
+      "path": "./packages/libs/esm-usb-canbus-adapter"
+    },
+    {
+      "name": "ESM USB RS232 ADAPTER",
+      "path": "./packages/libs/esm-usb-rs232-adapter"
+    },
+    {
+      "name": "ESM USB RS485 ADAPTER",
+      "path": "./packages/libs/esm-usb-rs485-adapter"
+    }
+  ]
+}
