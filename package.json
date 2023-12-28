@@ -1,0 +1,35 @@
+{
+  "name": "@digidockage/monospace",
+  "description": "Like a monorepo, but not like a monorepo.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/digidockage/monospace",
+  "repository": "https://github.com/digidockage/monospace.git",
+  "author": {
+    "name": "Sgobbi Federico",
+    "email": "federico@sgobbi.it",
+    "url": "https://digidockage.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "private": true,
+  "workspaces": [
+    "./packages/apps/**",
+    "./packages/libs/**"
+  ],
+  "scripts": {
+    "start:debug": "cross-env NODE_ENV=development nodemon --inspect ./src/index.js"
+  },
+  "dependencies": {
+    "@digidockage/esm-usb-canbus-adapter": "^0.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.2",
+    "semistandard": "^17.0.0"
+  }
+}
